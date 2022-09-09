@@ -1,7 +1,9 @@
 package com.atguigu.study.yygh.user.domain;
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import lombok.experimental.FieldNameConstants;
 
 import java.io.Serializable;
 
@@ -12,4 +14,10 @@ import java.io.Serializable;
 @Data
 @TableName("user_info")
 public class UserInfo implements Serializable {
+
+    @ApiModelProperty(value = "ID")
+    private Long id;
+
+    @ApiModelProperty(value = "用户名")
+    private String username;
 }

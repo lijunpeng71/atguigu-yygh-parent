@@ -10,7 +10,7 @@ spring:
 # mysql数据库连接
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://139.196.178.196:3306/yygh_user?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://139.196.178.196:3306/atguigu_yygh_user?characterEncoding=utf-8&useSSL=false
     username: root
     password: cyinfo666888666
   jackson:
@@ -21,3 +21,5 @@ spring:
       discovery:
         namespace: ffdb8c0e-e8b3-464d-b59b-19bfd893eb65
         server-addr: 139.196.178.196:8848
+mybatis-plus:
+  mapper-locations: classpath:com/atguigu/study/yygh/user/mapper/*.xml
