@@ -8,10 +8,9 @@
     <artifactId>atguigu-yygh-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>atguigu-yygh-service</module>
+        <module>atguigu-yygh-modules</module>
         <module>atguigu-yygh-common</module>
         <module>atguigu-yygh-gateway</module>
-        <module>atguigu-yygh-domain</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
