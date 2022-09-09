@@ -12,12 +12,8 @@
     <artifactId>atguigu-yygh-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>atguigu-yygh-client-user</module>
-        <module>atguigu-yygh-service-user</module>
-        <module>atguigu-yygh-service-common</module>
-        <module>atguigu-yygh-client-common</module>
-        <module>atguigu-yygh-domain-user</module>
-        <module>atguigu-yygh-domain-common</module>
+        <module>atguigu-yygh-module-common</module>
+        <module>atguigu-yygh-module-user</module>
     </modules>
 
     <dependencies>
