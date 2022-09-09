@@ -1,0 +1,12 @@
+*/target/*
+**/target/*
+target/classes
+logs/
+.idea/
+*.iml
+*/*.iml
+*.class
+*.DS_Store
+**/document.html
+**/swagger.json
+*.log
