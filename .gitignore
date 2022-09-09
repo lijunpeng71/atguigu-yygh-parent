@@ -1,10 +1,7 @@
 */target/*
-virgo.ipr
 */target
 target/*
-virgo.iws
 logs/
-projectFilesBackup/
 .idea/
 *.iml
 */*.iml
@@ -13,7 +10,3 @@ projectFilesBackup/
 **/document.html
 **/swagger.json
 *.log
-virgo-app/*.log
-**/.rebel.xml.bak
-**/rebel.xml
-**/.rebel-remote.xml.bak
