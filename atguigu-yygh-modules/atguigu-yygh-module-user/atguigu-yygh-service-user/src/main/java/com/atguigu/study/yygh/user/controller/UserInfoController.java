@@ -20,8 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @Api(tags = "用户信息管理")
 @RestController
-@RequestMapping("/admin/user")
-public class UserController {
+@RequestMapping("/admin/userInfo")
+public class UserInfoController {
 
     @Autowired
     private IUserInfoService userInfoService;
